@@ -17,8 +17,8 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 # ── paths ──────────────────────────────────────────────────────────────────────
 _HERE = os.path.dirname(os.path.abspath(__file__))
 LOGO_PATH      = os.path.join(_HERE, "assets", "logo.png")
-FONT_BOLD_PATH = "/System/Library/Fonts/Supplemental/Courier New Bold.ttf"
-FONT_REG_PATH  = "/System/Library/Fonts/Supplemental/Courier New.ttf"
+FONT_BOLD_PATH = os.path.join(_HERE, "assets", "CourierNewBold.ttf")
+FONT_REG_PATH  = os.path.join(_HERE, "assets", "CourierNew.ttf")
 
 # ── canvas constants ───────────────────────────────────────────────────────────
 IMG_W        = 1239
